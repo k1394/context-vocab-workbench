@@ -1,0 +1,65 @@
+# ---- 记忆日志：含昵称、账号等个人信息，绝不入库 ----
+.workbuddy/
+
+# ---- 一次性脚本（写死了 E 盘路径，换盘后已失效）----
+同步到G盘.bat
+
+# ---- 构建链的中间产物（可由 build_index.py 重新生成）----
+_t/*.html
+_t/build_step*.html
+_t/_pg_baseline_keep/
+_t/edge_ls/
+_t/ocrcache/
+_t/_sb*/
+_t/*.v17
+_now_wb.html
+_pgtx_new.html
+_pgtx/
+_pg/
+_serve/
+语境背单词工作台_本地版.html
+
+# ---- 历史版本快照（index.html.v18/v19/v20/v21/pre_rescue 等，逐个 2MB+）----
+index.html.*
+!index.html.bak5
+!index.html
+
+# ---- 历史存档：57MB 的历次线上/本地快照，只留本地 ----
+_artifacts/
+output/
+
+# ---- 排查过程的临时目录 ----
+_chk/
+_chk2/
+_chk3/
+_cache/
+
+# ---- OCR 缓存（5.7MB，可重新生成）----
+_ocrcache/
+
+# ---- 平台标记与部署细节 ----
+*.genie
+_notes_db_id.txt
+
+# ---- 截图 ----
+_shot*.png
+*.png
+
+# ---- 日志 ----
+_log*.txt
+
+# ---- 线上版本副本 ----
+index.html.bak31_online
+
+# ---- 依赖与系统 ----
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp

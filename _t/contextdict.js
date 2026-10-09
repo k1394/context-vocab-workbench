@@ -1,0 +1,20 @@
+var CONTEXT_DICT = {
+  'ceiling': { triggers: ['天花板','吊顶','顶棚'], meaning: '天花板', pos: 'n.', ipa: '/ˈsiːlɪŋ/' },
+  'beautiful': { triggers: ['华美的','美丽的','漂亮','好看','华丽'], meaning: '美丽的；华美的', pos: 'adj.', ipa: '/ˈbjuːtɪfl/' },
+  'condition': { triggers: ['条件'], meaning: '条件；状况', pos: 'n.', ipa: '/kənˈdɪʃn/' },
+  'reflect': { triggers: ['反射'], meaning: '反射；反映', pos: 'v.', ipa: '/rɪˈflekt/' },
+  'remove': { triggers: ['移开','移除','调动','移去'], meaning: '移开；调动', pos: 'v.', ipa: '/rɪˈmuːv/' },
+  'body': { triggers: ['身体','躯体'], meaning: '身体', pos: 'n.', ipa: '/ˈbɒdi/' },
+  'formation': { triggers: ['形成'], meaning: '形成', pos: 'n.', ipa: '/fɔːˈmeɪʃn/' },
+  'instinct': { triggers: ['本能','直觉'], meaning: '本能', pos: 'n.', ipa: '/ˈɪnstɪŋkt/' },
+  'room': { triggers: ['房间','地方','空间','屋子'], meaning: '房间；地方', pos: 'n.', ipa: '/ruːm/' },
+  'internal': { triggers: ['体内的','内部的','内在'], meaning: '体内的；内部的', pos: 'adj.', ipa: '/ɪnˈtɜːnl/' },
+  'react': { triggers: ['反应'], meaning: '反应', pos: 'v.', ipa: '/riˈækt/' },
+  'inform': { triggers: ['告诉','通知','告知'], meaning: '告诉；通知', pos: 'v.', ipa: '/ɪnˈfɔːm/' },
+  'speak': { triggers: ['说话','讲话','说'], meaning: '说话', pos: 'v.', ipa: '/spiːk/' },
+  'nor': { triggers: ['也不','也不'], meaning: '也不', pos: 'conj.', ipa: '/nɔːr/' },
+  'forget': { triggers: ['忘记','遗忘','忘了'], meaning: '忘记', pos: 'v.', ipa: '/fəˈɡet/' },
+  'around': { triggers: ['四周','周围','四处','到处'], meaning: '四处；周围', pos: 'prep.', ipa: '/əˈraʊnd/' },
+  'onto': { triggers: ['上面','之上','到...上'], meaning: '在……之上', pos: 'prep.', ipa: '/ˈɒntə/' },
+  'elapse': { triggers: ['流逝','过去','消逝'], meaning: '（时间）流逝', pos: 'v.', ipa: '/iˈlæps/' }
+};
